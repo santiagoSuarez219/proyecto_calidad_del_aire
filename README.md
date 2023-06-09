@@ -1,1 +1,7 @@
-# proyecto_calidad_del_aire
+# Proyecto Calidad del aire
+
+## Integrantes
+- Juan Camilo Morales Duran
+- David Andres Llano
+- Valentina Arredondo
+- Santiago Suarez
