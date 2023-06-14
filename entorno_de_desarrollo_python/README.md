@@ -78,5 +78,69 @@ source env/bin/activate
 pip3 install -r requirements.txt
 ```
 
+# Docker y python
+1. Crear un archivo llamado Dockerfile
+2. Dentro de este archivo, escribir las instrucciones para crear la imagen
+
+```bash
+FROM python:3.8
+
+WORKDIR /app
+COPY requirements.txt /app/requirements.txt
+
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+
+COPY . /app
+
+CMD bash -c "while true; do sleep 1; done"
+```
+
+3. Crear el archivo docker-compose.yml
+
+```bash
+version: "3.8"
+
+services:
+  app:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    volumes:
+        - .:/app
+```
+
+4. Crear la imagen
+
+```bash
+docker-compose build
+```
+
+5. Correr la imagen
+
+```bash
+docker-compose up
+```
+
+6. Para verificar que la imagen esta corriendo
+
+```bash
+docker-compose ps
+```
+
+7. Para acceder a la consola de la imagen
+
+```bash
+docker-compose exec app bash
+```
+
+8. Para detener la imagen
+
+```bash
+docker-compose down
+```
+
+
+
+
 
 
