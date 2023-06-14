@@ -4,5 +4,5 @@
 - Juan Camilo Morales Duran
 - David Andres Llano Balvin
 - Valentina Arredondo
-- Santiago Suarez
+- Santiago Suarez Cortes
 - Julian Mateo Noreña Ramirez
