@@ -5,4 +5,4 @@
 - David Andres Llano
 - Valentina Arredondo
 - Santiago Suarez
-- Mateo Noreña
+- Julian Mateo Noreña Ramirez
