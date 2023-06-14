@@ -2,7 +2,7 @@
 
 ## Integrantes
 - Juan Camilo Morales Duran
-- David Andres Llano
+- David Andres Llano Balvin
 - Valentina Arredondo
 - Santiago Suarez
 - Julian Mateo Noreña Ramirez
