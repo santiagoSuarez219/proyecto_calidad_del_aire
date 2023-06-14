@@ -56,4 +56,27 @@ Para desactivar el ambiente virtual, utilice el siguiente comando:
 deactivate
 ```
 
+# requirements.txt
+Puedes generar el archivo requirements.txt con el siguiente comando:
+
+```bash
+pip3 freeze > requirements.txt
+```
+
+Para revisar lo que hay dentro del archivo
+
+```bash
+cat requirements.txt
+```
+
+## Flujo de trabajo en python
+```bash
+git clone
+cd app
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+```
+
+
 
