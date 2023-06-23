@@ -249,6 +249,76 @@ semaforo("rojo") //'¡No puedes avanzar!'
 semaforo("morado") //'¡No reconozco ese color! :('
 ```
 
+# Ciclos
+## for
+```javascript
+for (var i = 0; i < 10; i++) {
+  console.log(i)
+}
+```
+
+## while
+```javascript
+var i = 0
+while (i < 10) {
+  console.log(i)
+  i++
+}
+```
+
+## do while
+```javascript
+var i = 0
+do {
+  console.log(i)
+  i++
+} while (i < 10)
+```
+
+## break
+```javascript
+for (var i = 0; i < 10; i++) {
+  if (i === 5) {
+    break
+  }
+  console.log(i)
+}
+```
+
+## continue
+```javascript
+for (var i = 0; i < 10; i++) {
+  if (i === 5) {
+    continue
+  }
+  console.log(i)
+}
+```
+
+# Arrays
+## Creación de arrays
+```javascript
+var numeros = [1, 2, 3, 4, 5]
+var nombres = ["Juan", "Pedro", "María", "Diana"]
+var mixto = [1, "Pedro", true, null, undefined]
+```
+
+## Acceso a elementos
+```javascript
+var numeros = [1, 2, 3, 4, 5]
+console.log(numeros[0]) // 1
+console.log(numeros[1]) // 2
+console.log(numeros[2]) // 3
+```
+
+## Modificación de elementos
+```javascript
+var numeros = [1, 2, 3, 4, 5]
+numeros[0] = 10
+console.log(numeros) // [10, 2, 3, 4, 5]
+```
+
+
 
 
 
