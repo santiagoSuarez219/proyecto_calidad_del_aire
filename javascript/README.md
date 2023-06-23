@@ -165,6 +165,94 @@ false || false // false
 "Hola " + 3 // "Hola 3"
 ```
 
+# Condicionales
+## if, else, else if
+```javascript
+if (edad >= 18){
+    console.log("Puedes conducir")
+}
+```
+
+```javascript
+if (edad >= 18){
+    console.log("Puedes conducir")
+} else {
+    console.log("No puedes conducir")
+}
+```
+
+```javascript
+if (edad >= 18){
+    console.log("Puedes conducir")
+} else if (edad < 16) {
+    console.log("No puedes conducir")
+} else {
+    console.log("Puedes sacar tu permiso")
+}
+```
+
+```javascript
+function calcularDescuento(articulos, precio) {
+  var precioFinal
+
+  if (articulos <= 5) {
+    //Hasta 5 artículos
+    precioFinal = precio * (1 - 0.1)
+  } else if (articulos > 5 && articulos <= 10) {
+    //De 6 a 10 artículos
+    precioFinal = precio * (1 - 0.15)
+  } else {
+    //De 10 artículos en adelante
+    precioFinal = precio * (1 - 0.2)
+  }
+
+  return precioFinal
+}
+
+calcularDescuento(4, 10) // 9
+calcularDescuento(8, 20) // 17
+calcularDescuento(15, 50) // 40
+```
+
+## Operador ternario
+```javascript
+var edad = 18
+var mensaje = edad >= 18 ? "Eres mayor de edad" : "Eres menor de edad"
+console.log(mensaje) // "Eres mayor de edad"
+```
+
+## Switch
+```javascript
+function semaforo(color) {
+  switch (color) {
+    case "verde": {
+      console.log("¡Sigue!")
+      break
+    }
+    case "amarillo": {
+      console.log("¡Detente!")
+      break
+    }
+    case "rojo": {
+      console.log("¡No puedes avanzar!")
+      break
+    }
+    default: {
+      console.log("¡No reconozco ese color! :(")
+    }
+  }
+}
+
+semaforo("verde") //'¡Sigue!'
+semaforo("amarillo") //'¡Detente!'
+semaforo("rojo") //'¡No puedes avanzar!'
+semaforo("morado") //'¡No reconozco ese color! :('
+```
+
+
+
+
+
 
 
 
