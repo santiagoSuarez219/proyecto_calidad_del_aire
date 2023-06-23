@@ -318,6 +318,126 @@ numeros[0] = 10
 console.log(numeros) // [10, 2, 3, 4, 5]
 ```
 
+## Métodos
+```javascript
+var numeros = [1, 2, 3, 4, 5]
+numeros.push(6)
+console.log(numeros) // [1, 2, 3, 4, 5, 6]
+numeros.pop()
+console.log(numeros) // [1, 2, 3, 4, 5]
+numeros.unshift(0)
+console.log(numeros) // [0, 1, 2, 3, 4, 5]
+numeros.shift()
+console.log(numeros) // [1, 2, 3, 4, 5]
+```
+
+# Objetos en JavaScript
+## Creación de objetos
+```javascript
+var persona = {
+  nombre: "Juan",
+  edad: 18,
+  soltero: true,
+  hobbies: ["Fútbol", "Videojuegos", "Leer"],
+  direccion: {
+    calle: "Av. Siempre viva",
+    numero: 123,
+    colonia: "Centro",
+    ciudad: "Springfield",
+    estado: "Springfield",
+    pais: "EUA",
+  },
+}
+```
+
+## Acceso a propiedades
+```javascript
+console.log(persona.nombre) // "Juan"
+console.log(persona.edad) // 18
+```
+
+## Modificación de propiedades
+```javascript
+persona.nombre = "Pedro"
+console.log(persona.nombre) // "Pedro"
+```
+
+## Métodos
+```javascript
+var persona = {
+  nombre: "Juan",
+  edad: 18,
+  soltero: true,
+  hobbies: ["Fútbol", "Videojuegos", "Leer"],
+  direccion: {
+    calle: "Av. Siempre viva",
+    numero: 123,
+    colonia: "Centro",
+    ciudad: "Springfield",
+    estado: "Springfield",
+    pais: "EUA",
+  },
+  saludar: function () {
+    console.log("Hola, mi nombre es " + this.nombre)
+  },
+}
+
+persona.saludar() // "Hola, mi nombre es Juan"
+```
+
+## Constructor
+```javascript
+function Persona(nombre, edad, soltero, hobbies, direccion) {
+  this.nombre = nombre
+  this.edad = edad
+  this.soltero = soltero
+  this.hobbies = hobbies
+  this.direccion = direccion
+  this.saludar = function () {
+    console.log("Hola, mi nombre es " + this.nombre)
+  }
+}
+
+var persona1 = new Persona(
+  "Juan",
+  18,
+  true,
+  ["Fútbol", "Videojuegos", "Leer"],
+  {
+    calle: "Av. Siempre viva",
+    numero: 123,
+    colonia: "Centro",
+    ciudad: "Springfield",
+    estado: "Springfield",
+    pais: "EUA",
+  }
+)
+
+var persona2 = new Persona(
+  "Pedro",
+  20,
+  false,
+  ["Fútbol", "Videojuegos", "Leer"],
+  {
+    calle: "Av. Siempre viva",
+    numero: 123,
+    colonia: "Centro",
+    ciudad: "Springfield",
+    estado: "Springfield",
+    pais: "EUA",
+  }
+)
+
+persona1.saludar() // "Hola, mi nombre es Juan"
+persona2.saludar() // "Hola, mi nombre es Pedro"
+```
+
+s
+
+
+
+
+
 
 
 
