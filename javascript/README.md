@@ -69,4 +69,26 @@ En JS, se pueden declarar variables con var, let y const.
 - No redeclaración: No se puede redeclarar una variable con const en el mismo ámbito. Si se intenta declarar una variable con el mismo nombre en el mismo ámbito, se producirá un error.
 
 **En general, se recomienda utilizar let en lugar de var en nuevos proyectos, ya que let ofrece un alcance más preciso y evita problemas relacionados con el hoisting. Por otro lado, const se utiliza para declarar variables cuyos valores no deben cambiar a lo largo del programa.**
-s
+
+# Funciones
+## Funciones declarativas
+```javascript
+function saludar(nombre) {
+  return `Hola ${nombre}`;
+}
+
+saludar('Juan'); // 'Hola Juan'
+```
+
+## Funciones de expresión o anonimas
+```javascript
+const saludar = function(nombre) {
+  return `Hola ${nombre}`;
+}
+
+saludar('Juan'); // 'Hola Juan'
+```
+
+
+
+
