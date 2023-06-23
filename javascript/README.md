@@ -89,6 +89,84 @@ const saludar = function(nombre) {
 saludar('Juan'); // 'Hola Juan'
 ```
 
+# Operadores
+## Operadores aritméticos
+```javascript
+// Suma
+2 + 3 // 5
+// Resta
+5 - 3 // 2
+// Multiplicación
+4 * 2 // 8
+// División
+6 / 2 // 3
+//Residuo
+21 % 5 // 1
+```
+
+## Operadores de asignación
+```javascript
+// Asignación
+let a = 1;
+// Asignación de adición
+a += 2; // a = a + 2
+// Asignación de sustracción
+a -= 2; // a = a - 2
+// Asignación de multiplicación
+a *= 2; // a = a * 2
+// Asignación de división
+a /= 2; // a = a / 2
+// Asignación de residuo
+a %= 2; // a = a % 2
+```
+
+## Operadores de comparación
+```javascript
+//Igualdad
+""3"" == 3 // true
+3 == 3 // true
+// Igualdad estricta
+""3"" === 3 // false
+3 === 3 // true
+// Desigualdad
+2 != 2 // false
+// Estrictamente desigual
+2 !== 2 // false
+// Mayor que    
+2 > 2 // false
+// Mayor o igual que
+2 >= 2 // true
+// Menor que
+2 < 2 // false
+// Menor o igual que
+2 <= 2 // true
+```
+
+## Operadores lógicos
+```javascript
+// AND
+true && true // true
+true && false // false
+false && true // false
+false && false // false
+// OR
+true || true // true
+true || false // true
+false || true // true
+false || false // false
+// NOT
+!true // false
+!false // true
+```
+
+## Concatenacion
+```javascript
+"Hola " + "mundo" // "Hola mundo"
+"Hola " + 3 // "Hola 3"
+```
+
+
+
 
 
 
