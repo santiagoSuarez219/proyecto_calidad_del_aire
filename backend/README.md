@@ -27,3 +27,28 @@ npm i nodemon express
 ```bash
 npm run dev
 ```
+
+# Servidor HTTP con Express JS
+1. Instalar Express
+```bash
+npm i express
+```
+2. En el archivo src/index.js implemente el siguiente codigo
+
+```javascript
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/',(req,res) =>{
+  res.send('Hello World');
+});
+
+app.listen(port, () => {
+  console.log('Mi port' + port);
+});
+```
+
+
+
+
