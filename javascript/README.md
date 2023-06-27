@@ -468,7 +468,6 @@ persona1.saludar() // "Hola, mi nombre es Juan"
 persona2.saludar() // "Hola, mi nombre es Pedro"
 ```
 
-s
 
 
 
