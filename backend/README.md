@@ -44,10 +44,27 @@ app.get('/',(req,res) =>{
   res.send('Hello World');
 });
 
+app.get('/otra-ruta',(req,res) =>{
+  res.json({
+    "sensor":"SCD40",
+    "temperatura": 25.5
+  });
+});
+
+app.get('/respuesta-html',(req,res) =>{
+  res.send('<h1>Esta es una respuesta en HTML</h1>');
+});
+
 app.listen(port, () => {
   console.log('Mi port' + port);
 });
 ```
+
+NOTA: Para ver mejor los JSON en el navegador puede instalar la extension JSONViewer
+
+
+
+
 
 
 
