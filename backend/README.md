@@ -164,8 +164,19 @@ app.get('/products/:id',(req,res) =>{
 
 [Express Router](https://github.com/santiagoSuarez219/backend_node_js_API_REST#separacion-de-responsabilidades-con-expressrouter)
 
+# Metodo POST
+
+[Metodo POST](https://github.com/santiagoSuarez219/backend_node_js_API_REST#post-metodo-para-crear)
+
+# Metodo PUT, PATCH y DELETE
+[Metodo PUT, PATCH y DELETE](https://github.com/santiagoSuarez219/backend_node_js_API_REST#put-patch-y-delete)
 
 
+# Codigos de estado en HTTP
+[Status Codes](https://github.com/santiagoSuarez219/backend_node_js_API_REST#codigos-de-estado-o-http-response-status-codes)
+
+# Servicios 
+[Servicios](https://github.com/santiagoSuarez219/backend_node_js_API_REST#servicios)
 
 
 
