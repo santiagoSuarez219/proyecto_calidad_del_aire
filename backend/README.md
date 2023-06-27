@@ -98,7 +98,7 @@ app.get('/categories/:category_id/products/:product_id',(req,res) =>{
 
 ## Parametros Query
 
-![Parametros Query](https://github.com/santiagoSuarez219/backend_node_js_API_REST#get-par%C3%A1metros-query)
+[Parametros Query](https://github.com/santiagoSuarez219/backend_node_js_API_REST#get-par%C3%A1metros-query)
 
 ```javascript
 app.get('/users',(req,res) =>{
@@ -138,6 +138,34 @@ app.get('/products',(req,res) =>{
   res.json(products);
 });
 ```
+
+Nota: Cuando tienes EndPoints similares, deben ir primero los fijos y luego los dinamicos para no generar conflictos
+
+```javascript
+app.get('/products/filter',(req,res) =>{
+  res.send('Filtrando productos');
+});
+
+app.get('/products/:id',(req,res) =>{
+  const { id } = req.params;
+  res.json({
+    id,
+    name: 'Producto 1',
+    price: 1000
+  });
+});
+```
+
+# Express Router
+
+1. Crear la carpeta routes dentro de src
+2. Crear el archivo productsRouter.js dentro de routes
+3. Crear el archivo index.js dentro de routes
+
+[Express Router](https://github.com/santiagoSuarez219/backend_node_js_API_REST#separacion-de-responsabilidades-con-expressrouter)
+
+
+
 
 
 
