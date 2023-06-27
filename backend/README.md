@@ -62,6 +62,85 @@ app.listen(port, () => {
 
 NOTA: Para ver mejor los JSON en el navegador puede instalar la extension JSONViewer
 
+# Metodo GET
+## Parametros de ruta
+```javascript
+app.get('/products',(req,res) =>{
+  res.json([
+    {
+      name: 'Producto 1',
+      price: 1000
+    },
+    {
+      name: 'Producto 2',
+      price: 2000
+    }
+  ]);
+});
+
+app.get('/products/:id',(req,res) =>{
+  const { id } = req.params;
+  res.json({
+    id,
+    name: 'Producto 1',
+    price: 1000
+  });
+});
+
+app.get('/categories/:category_id/products/:product_id',(req,res) =>{
+  const { category_id, product_id } = req.params;
+  res.json({
+    category_id,
+    product_id
+  });
+})
+```
+
+## Parametros Query
+
+![Parametros Query](https://github.com/santiagoSuarez219/backend_node_js_API_REST#get-par%C3%A1metros-query)
+
+```javascript
+app.get('/users',(req,res) =>{
+  const { limit, offset } = req.query;
+  if (limit && offset) {
+    res.json({
+      limit,
+      offset
+    });
+  } else {
+    res.send('No hay parametros');
+  }
+});
+```
+
+# Generar data fake
+1. Instalar faker
+```bash
+npm i @faker-js/faker
+```
+
+2. Importar faker
+```javascript
+const { faker } = require('@faker-js/faker');
+(...)
+app.get('/products',(req,res) =>{
+  const products = [];
+  const {size} = req.query;
+  const limit = size || 10;
+  for (let i = 0; i < limit; i++) {
+    products.push({
+      name: faker.commerce.productName(),
+      price: parseInt(faker.commerce.price(),10),
+      image: faker.image.imageUrl()
+    });
+  }
+  res.json(products);
+});
+```
+
+
+
 
 
 
