@@ -178,6 +178,69 @@ app.get('/products/:id',(req,res) =>{
 # Servicios 
 [Servicios](https://github.com/santiagoSuarez219/backend_node_js_API_REST#servicios)
 
+# Middlewares
+[Middlewares](https://github.com/santiagoSuarez219/backend_node_js_API_REST#middlewares)
+
+## Manejo de errores con Boom
+[Manejo de errores con Boom](https://github.com/santiagoSuarez219/backend_node_js_API_REST#manejo-de-errores-con-boom)
+
+## Validacion de datos con Joi
+[Validacion de datos con Joi](https://github.com/santiagoSuarez219/backend_node_js_API_REST#validacion-de-datos-con-joi)
+[Documentacion](https://joi.dev/api/?v=17.9.1)
+
+Nota: Crear nuevo middleware para validar los datos de entrada, puede llamarse, 
+validatorHandler.js
+
+# Problema de CORS
+
+1. Instalar CORS
+```bash
+npm i cors
+```
+
+2. Importar CORS
+```javascript
+const cors = require('cors');
+```
+
+3. Implementar CORS
+```javascript
+app.use(cors());
+```
+
+4. Implementar CORS con opciones
+```javascript
+const whitelist = ['http://localhost:8080', 'http://myapp.com'];
+const options = {
+    origin: (origin, callback) => {
+        if (whitelist.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('No permitido'));
+        }
+    }
+}
+app.use(cors(options));
+```
+
+# Implementacion en Heroku
+1. Crear cuenta en Heroku
+2. Descaargar Heroku CLI
+[Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+3. Vincular tu cuenta con Heroku CLI
+```bash
+heroku login
+```
+4. Crear una nueva aplicacion
+```bash
+
+
+
+
+
+
+
+
 
 
 
