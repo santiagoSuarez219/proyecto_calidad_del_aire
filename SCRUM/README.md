@@ -58,34 +58,30 @@ El Equipo de Desarrollo es el grupo de profesionales que realiza el trabajo nece
 
 - Entrega de incrementos de funcionalidad: El equipo de desarrollo se compromete a entregar incrementos de funcionalidad completos y potencialmente desplegables al final de cada sprint.
 
-## Eventos de SCRUM
-Scrum tiene varias ceremonias clave que se llevan a cabo durante el desarrollo del proyecto. Estas ceremonias proporcionan estructura y oportunidades para la colaboración y la toma de decisiones en el equipo Scrum. Las ceremonias de Scrum son:
+## Sprints
 
-1. Reunión de Planificación del Sprint (Sprint Planning Meeting): Esta reunión marca el comienzo de cada sprint y tiene como objetivo principal establecer los objetivos y el plan de trabajo para el sprint. El Product Owner presenta los elementos del backlog prioritizados al equipo de desarrollo, y juntos discuten y seleccionan las historias de usuario o elementos de trabajo que se comprometerán a completar durante el sprint. Al final de la reunión, el equipo de desarrollo debe tener una comprensión clara de las tareas que se realizarán y cómo se evaluará el éxito del sprint.
+El Sprint es el corazón de Scrum. Es un periodo determinado en el que se crea un incremento del producto. Puede durar entre 1 y 4 semanas (lo más común son 2 semanas), sin embargo, una vez se establezca la frecuencia del Sprint, esta siempre será la misma.
 
-Esta reunión suele tener una duración máxima de 4 horas para un sprint de 2 semanas (o proporcionalmente más tiempo para sprints más largos). Sin embargo, la duración exacta puede variar según el tamaño del equipo y la cantidad de elementos del backlog a discutir y planificar.
+### Caracteristicas del Sprint
+Estas son algunas características del Sprint en un proyecto Scrum:
 
-2. Reunión Diaria (Daily Scrum): Es una breve reunión diaria de sincronización que se realiza para mantener a todos los miembros del equipo actualizados sobre el progreso del sprint. Cada miembro del equipo responde a tres preguntas básicas: ¿Qué hice ayer?, ¿Qué haré hoy? y ¿Hay algún impedimento o bloqueo que me impida avanzar? El objetivo es compartir información relevante y identificar cualquier obstáculo que pueda requerir la intervención del Scrum Master para su resolución.
+- Cada sprint debe tener un objetivo claro
+- Cualquier cambio dentro del Sprint debe ser negociado entre el equipo de desarrollo y el Product Owner.
+- Si los objetivos del Sprint quedan obsoletos, este podría ser cancelado. Aunque esto es poco común, solo el Product Owner tiene la autoridad para cancelar un Sprint.
 
-La reunión diaria de Scrum es una reunión breve y enfocada en la sincronización del equipo. Se recomienda que la duración sea de 15 minutos como máximo, independientemente del tamaño del equipo. El objetivo es mantenerla ágil y enfocada en las actualizaciones clave.
+## Product Backlog
+El Product Backlog es una lista ordenada y priorizada de todas las funcionalidades, mejoras y requisitos del producto. Es responsabilidad del Product Owner mantener y gestionar el Product Backlog. Los elementos del backlog se expresan en forma de historias de usuario, describiendo las funcionalidades o requisitos desde la perspectiva del usuario. El Product Backlog se actualiza y ajusta continuamente a medida que se obtiene más información y se generan nuevas necesidades.
 
-3. Revisión del Sprint (Sprint Review): Al final de cada sprint, se lleva a cabo la revisión del sprint para demostrar y evaluar el trabajo completado. Durante esta reunión, el equipo de desarrollo presenta las funcionalidades completadas al Product Owner y a los stakeholders para obtener su retroalimentación y comentarios. El objetivo es validar que el trabajo realizado cumple con los criterios de aceptación y proporcionar una oportunidad para ajustar o priorizar los elementos del backlog del producto.
+### Epicas
+Son modulos de gran tamaño que se dividen en historias de usuario más pequeñas. Las epicas son útiles para describir funcionalidades o requisitos de alto nivel que requieren más análisis y desglose antes de poder ser abordados por el equipo de desarrollo. Normalmente requieren mas de un sprint para ser completadas. Por ejemplo, como usuario quiero poder iniciar sesión en la aplicación para acceder a mi cuenta.
 
-La duración de la revisión del sprint puede variar según el alcance del sprint y la cantidad de funcionalidades completadas para demostrar. Por lo general, para un sprint de 2 semanas, la reunión de revisión puede durar entre 1 y 2 horas. Es importante tener en cuenta que la revisión debe centrarse en la demostración y la obtención de comentarios, no en discusiones detalladas.
+### Historias de usuario
 
-1. Retrospectiva del Sprint (Sprint Retrospective): Después de la revisión del sprint, el equipo Scrum realiza una retrospectiva para analizar cómo fue el sprint en términos de procesos, colaboración y mejora continua. Durante esta reunión, el equipo reflexiona sobre lo que funcionó bien, lo que no funcionó y las oportunidades de mejora. Se identifican acciones y se establecen planes para implementar cambios y mejoras en el próximo sprint.
+Son descripciones breves de una funcionalidad o requisito desde la perspectiva del usuario. Las historias de usuario se expresan en forma de plantilla simple: 
 
-La duración de la retrospectiva del sprint también puede variar, pero generalmente se recomienda entre 1 y 2 horas para un sprint de 2 semanas. Esto permite que el equipo tenga suficiente tiempo para revisar y discutir los puntos clave de mejora y establecer acciones concretas.
+`Como [usuario], quiero [funcionalidad] para [objetivo]. `
 
-Estas son las principales ceremonias en Scrum. Además de estas, también pueden haber otras reuniones o eventos adicionales según las necesidades del proyecto, como sesiones de refinamiento del backlog o revisión de la hoja de ruta del producto. El objetivo general de estas ceremonias es fomentar la transparencia, la colaboración y la adaptabilidad en el proceso de desarrollo ágil.
-
-## Artefactos de SCRUM
-
-Scrum utiliza diferentes artefactos para facilitar la planificación, el seguimiento y la comunicación en el desarrollo ágil de proyectos. Estos artefactos proporcionan transparencia y aseguran que todos los miembros del equipo tengan una comprensión clara del trabajo realizado y por realizar. Los principales artefactos de Scrum son los siguientes:
-
-1. Product Backlog (Backlog del Producto): El Product Backlog es una lista ordenada y priorizada de todas las funcionalidades, mejoras y requisitos del producto. Es responsabilidad del Product Owner mantener y gestionar el Product Backlog. Los elementos del backlog se expresan en forma de historias de usuario, describiendo las funcionalidades o requisitos desde la perspectiva del usuario. El Product Backlog se actualiza y ajusta continuamente a medida que se obtiene más información y se generan nuevas necesidades.
-   1. Epicas: Son historias de usuario de gran tamaño que se dividen en historias de usuario más pequeñas. Las epicas son útiles para describir funcionalidades o requisitos de alto nivel que requieren más análisis y desglose antes de poder ser abordados por el equipo de desarrollo. Normalmente requieren mas de un sprint para ser completadas. Por ejemplo, como usuario quiero poder iniciar sesión en la aplicación para acceder a mi cuenta.
-   2. Historias de usuario: Son descripciones breves de una funcionalidad o requisito desde la perspectiva del usuario. Las historias de usuario se expresan en forma de plantilla simple: Como [usuario], quiero [funcionalidad] para [objetivo]. Por ejemplo, como usuario quiero poder iniciar sesión en la aplicación para acceder a mi cuenta.
+Por ejemplo, como usuario quiero poder iniciar sesión en la aplicación para acceder a mi cuenta.
 
 El Product Backlog es una lista ordenada y priorizada de todas las épicas, historias de usuario y otros elementos de trabajo que representan los requisitos y las funcionalidades del producto.
 
@@ -100,7 +96,7 @@ Si desarrollamos una aplicacion de educacion en linea, las epicas pueden ser
 - Modulo para interaccion de estudiantes
   - Como usuario quiero poder interactuar con otros estudiantes para poder compartir conocimiento
 
-## Como crear historias de usuario
+#### Como crear historias de usuario
 Componentes de la historia de usuario.
 1. Titulo: Es una breve descripcion de la historia de usuario
 2. Descripcion: Es una descripcion mas detallada de la historia de usuario
@@ -118,7 +114,7 @@ Las historias de usuario describen el punto de vista del usuario final que no ne
 
 Una historia de usuario debe ser independiente, es decir, no debe depender de otras historias de usuario para ser completada. También debe ser negociable, es decir, debe ser lo suficientemente flexible como para permitir cambios y ajustes. Además, debe ser valiosa, es decir, debe aportar valor al usuario final, debe ser estimable, es decir, debe ser lo suficientemente clara y detallada como para poder estimar su complejidad, debe ser pequeña, es decir, debe ser lo suficientemente pequeña como para poder ser completada en un sprint, y debe ser testable, es decir, debe ser posible probarla para verificar que cumple con los requisitos.
 
-### Estimar historias de usuario
+#### Estimar historias de usuario
 1. Complejidad de la historia
 2. Cantidad de trabajo requerido
 3. Conocimientos necesarios
@@ -126,7 +122,7 @@ Una historia de usuario debe ser independiente, es decir, no debe depender de ot
 
 La estimacion se refleja en puntos, para esto se utiliza la estrategia de poker planning
 
-### Poker planning
+#### Poker planning
 El planning poker es una herramienta que sirve para que el equipo de un proyecto Scrum participe en la estimación de las Historias de Usuario.
 
 Existen cartas físicas de planning poker pero, en caso de no tenerlas, también se puede hacer uso de aplicaciones como Scrum Poker Cards, disponible en PlayStore.
@@ -145,7 +141,7 @@ Al final del proceso de estimación, se obtendrá el valor total de puntos de to
 
 Durante el primer sprint es posible identificar la velocidad del equipo y con base en los resultados, será más fácil estimar los próximos sprints.
 
-1. Sprint Backlog (Backlog del Sprint): 
+## Sprint Backlog (Backlog del Sprint)
 El Sprint Backlog es una lista de tareas y funcionalidades seleccionadas del Product Backlog para ser abordadas durante un sprint específico. El Sprint Backlog se crea en la reunión de planificación del sprint y es propiedad del equipo de desarrollo. El equipo divide las historias de usuario en tareas más pequeñas y define estimaciones para cada una. El Sprint Backlog se utiliza para rastrear el progreso y el trabajo pendiente durante el sprint.
 
 Solo el equipo de desarrollo puede aceptar que se agreguen elementos al Sprint Backlog.
@@ -155,31 +151,14 @@ Si un elemento se vuelve innecesario o ya no es relevante, el equipo de desarrol
 
 [Cómo medir el avance de un proyecto Scrum](https://docs.google.com/spreadsheets/d/14a0oGjtCa5X8ipVyWidRRW6Vl6qAYp1s/edit?usp=drive_link&ouid=118288274757752994746&rtpof=true&sd=true)
 
-1. Incremento (Increment): El Incremento es el resultado del trabajo realizado durante un sprint. Representa el conjunto de funcionalidades completadas y probadas que se entregan al final del sprint. El Incremento debe ser potencialmente desplegable, es decir, debe estar en un estado que permita su implementación y uso inmediato por parte del cliente o usuario final. Cada incremento se agrega al producto existente, lo que implica que el producto se va construyendo gradualmente a lo largo de los sprints.
+## Incremento (Increment)
+El Incremento es el resultado del trabajo realizado durante un sprint. Representa el conjunto de funcionalidades completadas y probadas que se entregan al final del sprint. El Incremento debe ser potencialmente desplegable, es decir, debe estar en un estado que permita su implementación y uso inmediato por parte del cliente o usuario final. Cada incremento se agrega al producto existente, lo que implica que el producto se va construyendo gradualmente a lo largo de los sprints.
 
-Estos artefactos en Scrum proporcionan transparencia y visibilidad sobre el trabajo realizado, el trabajo pendiente y los requisitos del producto. Ayudan a garantizar una comprensión común entre todos los miembros del equipo y las partes interesadas sobre el estado del proyecto y las metas a alcanzar.
+## Eventos de SCRUM
 
-## Sprints
+### Sprint Planning
 
-El Sprint es el corazón de Scrum. Es un periodo determinado en el que se crea un incremento del producto. Puede durar entre 1 y 4 semanas (lo más común son 2 semanas), sin embargo, una vez se establezca la frecuencia del Sprint, esta siempre será la misma.
-
-### Caracteristicas del Sprint
-Estas son algunas características del Sprint en un proyecto Scrum:
-
-- Cada sprint debe tener un objetivo claro
-- Cualquier cambio dentro del Sprint debe ser negociado entre el equipo de desarrollo y el Product Owner.
-- Si los objetivos del Sprint quedan obsoletos, este podría ser cancelado. Aunque esto es poco común, solo el Product Owner tiene la autoridad para cancelar un Sprint.
-
-### Cual es el ritmo del sprint
-El ritmo del Sprint refleja lo que va ocurriendo durante el proceso:
-
-#### **Sprint Planning:** 
-
-El Sprint Planning es la ceremonia de Scrum en la que se definen las Historias de Usuario que se van a desarrollar durante el Sprint. El Scrum Master es el encargado de organizar la sesión y en ella debe estar presente todo el equipo de Scrum:
-
-- Scrum Master
-- Product Owner
-- Equipo de desarrollo
+El Sprint Planning es la ceremonia de Scrum en la que se definen las Historias de Usuario que se van a desarrollar durante el Sprint. El Scrum Master es el encargado de organizar la sesión y en ella debe estar presente todo el equipo de Scrum
 
 1. El Sprint Planning no debe durar más de 8 horas para sprints de 4 semanas. Normalmente, esta ceremonia puede tomar 1 hora para un sprint de 2 semanas.
 2. El Scrum Master es el encargado de organizar esta ceremonia. Se debe llevar a cabo en un lugar adecuado y que sea lo suficientemente espacioso para el equipo, puede incluir un pizarrón o la tecnología necesaria para llevar a cabo una videoconferencia con el cliente.
@@ -188,26 +167,28 @@ El Scrum Master debe asegurarse de que todo lo necesario para la sesión esté d
 
 3. Es importante que durante la sesión de planeación del Sprint se respondan las siguientes preguntas:
 
-*¿Qué puede entregarse al final del sprint?*
+**¿Qué puede entregarse al final del sprint?**
 
 - Se trabajan los elementos más prioritarios de la Lista del Producto.
 - Se discute el objetivo a lograr en el Sprint.
 - Se necesita identificar la capacidad del equipo y conocer la velocidad de la última iteración (Cuantos puntos se pudo completar en el sprint anterior).
 
-*¿Cómo se logrará hacer este trabajo?*
+**¿Cómo se logrará hacer este trabajo?**
+
 - Se analizan los elementos de la Lista de Producto seleccionados para el Sprint y se mueven a la Lista de Pendientes del Sprint.
 - Durante este proceso, se realiza la estimación de esfuerzo.
 - El Product Owner se encarga de aclarar cualquier duda con respecto a una Historia de Usuario o algún elemento del Backlog.
 Puede haber invitados que aporten valor a la discusión de las funcionalidades (cliente, usuario final).
 
-#### Scrum diario. 
+### Scrum diario. 
 El Daily stand-up es una reunión diaria de no más de 15 minutos en la cual participa únicamente el equipo de desarrollo y donde se planifican las siguientes 24 horas de trabajo.
 
 Esta sesión se lleva a cabo de pie con la finalidad de ser muy concretos y evitar que se extienda.
 
 El Scrum Master es responsable de organizar la reunión, de preferencia a la misma hora y lugar para crear la costumbre. Otras personas pueden estar presentes, como el Product Owner, pero solo como observadores, sin participar.
 
-- *Cómo hacer una Daily stand-up*
+**Cómo hacer una Daily stand-up**
+
 Esta sesión de seguimiento diario del proyecto permite optimizar la colaboración entre los integrantes del equipo. En ella se exponen los avances, la planeación y los posibles obstáculos de cada integrante del equipo de una forma concreta.
 
 Para ello, se deben formular 3 preguntas:
@@ -222,20 +203,18 @@ El Scrum Master es responsable de asegurar que no haya impedimentos para que el 
 
 Si se requieren más detalles sobre lo discutido, el equipo puede decidir que se lleve a cabo una reunión
 
-- *Beneficios del Daily Stand-Up*
+**Beneficios del Daily Stand-Up**
 1. Mejora la comunicación del equipo de Scrum, gracias a las 3 preguntas que se responden (¿qué hice ayer?, ¿qué hice hoy?, ¿tengo algún impedimento?).
 2. Hace posible conocer y medir el progreso para cumplir el objetivo del Sprint.
 3. Ayuda a identificar rápidamente problemas o inconvenientes que pueden frenar el avance del equipo de desarrollo.
 
 
-#### Trabajo de desarrollo. 
-Va ocurriendo todos los días.
-
-
 ### Revisión del Sprint. 
-Esta ceremonia de Revisión del Sprint se lleva a cabo el último día del Sprint. Allí se muestran al cliente los avances de la iteración, el software que se ha desarrollado y su funcionamiento. No necesariamente tiene que ser una sesión, pueden ser varias reuniones.
+Al final de cada sprint, se lleva a cabo la revisión del sprint para demostrar y evaluar el trabajo completado. Durante esta reunión, el equipo de desarrollo presenta las funcionalidades completadas al Product Owner y a los stakeholders  para obtener su retroalimentación y comentarios. El objetivo es validar que el trabajo realizado cumple con los criterios de aceptación y proporcionar una oportunidad para ajustar o priorizar los elementos del backlog del producto.
 
-- *Características de la Revisión del Sprint*
+
+**Características de la Revisión del Sprint**
+
 1. La transparencia es importante. Esta reunión está enfocada en la comunicación con el cliente, es informal y abierta al diálogo, no es una sesión de seguimiento.
 2. Es facilitada por el Scrum Master y no debe durar más de cuatro horas para Sprints de un mes. Para sprints más cortos, se podría llevar a cabo en menos tiempo.
 3. Al final de la revisión se tendrá una lista de producto actualizada.
@@ -243,9 +222,9 @@ Esta ceremonia de Revisión del Sprint se lleva a cabo el último día del Sprin
    
 Después del Sprint Review se lleva a cabo una sesión de Retrospectiva, donde el equipo de Scrum analiza las oportunidades de mejora.
 
-#### Retrospectiva del Sprint. 
+### Retrospectiva del Sprint. 
 
-La Retrospectiva es una reunión interna en la que solo participa el equipo de Scrum. Es facilitada por el Scrum Master y el cliente no está presente.
+La Retrospectiva es una reunión interna en la que solo participa el equipo de Scrum. Es facilitada por el Scrum Master y el cliente no está presente. Después de la revisión del sprint, el equipo Scrum realiza una retrospectiva para analizar cómo fue el sprint en términos de procesos, colaboración y mejora continua. Durante esta reunión, el equipo reflexiona sobre lo que funcionó bien, lo que no funcionó y las oportunidades de mejora. Se identifican acciones y se establecen planes para implementar cambios y mejoras en el próximo sprint.
 
 Esta ceremonia se lleva a cabo en un ambiente más relajado y el equipo puede expresar libremente lo que piensa y dar feedback acerca de situaciones particulares.
 
@@ -263,6 +242,25 @@ Esta ceremonia se lleva a cabo en un ambiente más relajado y el equipo puede ex
       2. ¿Qué no hicimos tan bien?
       3. ¿Qué podemos mejorar?
       4. Con base en las respuestas a estas preguntas se identifican los elementos más importantes, se buscan soluciones y se crea un plan de acción para aplicar las mejoras.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
