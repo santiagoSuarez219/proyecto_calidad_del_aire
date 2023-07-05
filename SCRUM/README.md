@@ -159,7 +159,6 @@ Si un elemento se vuelve innecesario o ya no es relevante, el equipo de desarrol
 
 Estos artefactos en Scrum proporcionan transparencia y visibilidad sobre el trabajo realizado, el trabajo pendiente y los requisitos del producto. Ayudan a garantizar una comprensión común entre todos los miembros del equipo y las partes interesadas sobre el estado del proyecto y las metas a alcanzar.
 
- 
 ## Sprints
 
 El Sprint es el corazón de Scrum. Es un periodo determinado en el que se crea un incremento del producto. Puede durar entre 1 y 4 semanas (lo más común son 2 semanas), sin embargo, una vez se establezca la frecuencia del Sprint, esta siempre será la misma.
@@ -174,7 +173,9 @@ Estas son algunas características del Sprint en un proyecto Scrum:
 ### Cual es el ritmo del sprint
 El ritmo del Sprint refleja lo que va ocurriendo durante el proceso:
 
-- **Sprint Planning:** El Sprint Planning es la ceremonia de Scrum en la que se definen las Historias de Usuario que se van a desarrollar durante el Sprint. El Scrum Master es el encargado de organizar la sesión y en ella debe estar presente todo el equipo de Scrum:
+#### **Sprint Planning:** 
+
+El Sprint Planning es la ceremonia de Scrum en la que se definen las Historias de Usuario que se van a desarrollar durante el Sprint. El Scrum Master es el encargado de organizar la sesión y en ella debe estar presente todo el equipo de Scrum:
 
 - Scrum Master
 - Product Owner
@@ -199,14 +200,70 @@ El Scrum Master debe asegurarse de que todo lo necesario para la sesión esté d
 - El Product Owner se encarga de aclarar cualquier duda con respecto a una Historia de Usuario o algún elemento del Backlog.
 Puede haber invitados que aporten valor a la discusión de las funcionalidades (cliente, usuario final).
 
+#### Scrum diario. 
+El Daily stand-up es una reunión diaria de no más de 15 minutos en la cual participa únicamente el equipo de desarrollo y donde se planifican las siguientes 24 horas de trabajo.
 
-- Scrum diario. Ocurre todos los días del Sprint para discutir el progreso hacia los objetivos.
-- Trabajo de desarrollo. Va ocurriendo todos los días.
-- Revisión del Sprint. Es la sesión donde se evalúa si se cumplen o no los objetivos.
-- Retrospectiva del Sprint. En esta sesión el equipo analiza qué tan bien lo ha hecho y qué puede mejorar. Las mejoras identificadas se aplicarán en el siguiente Sprint.
+Esta sesión se lleva a cabo de pie con la finalidad de ser muy concretos y evitar que se extienda.
 
-### Duracion
-La duración de un sprint en Scrum puede variar según las necesidades y las circunstancias del proyecto. Sin embargo, la duración más comúnmente utilizada para los sprints es de 1 a 4 semanas. La duración recomendada con mayor frecuencia es de 2 semanas.
+El Scrum Master es responsable de organizar la reunión, de preferencia a la misma hora y lugar para crear la costumbre. Otras personas pueden estar presentes, como el Product Owner, pero solo como observadores, sin participar.
+
+- *Cómo hacer una Daily stand-up*
+Esta sesión de seguimiento diario del proyecto permite optimizar la colaboración entre los integrantes del equipo. En ella se exponen los avances, la planeación y los posibles obstáculos de cada integrante del equipo de una forma concreta.
+
+Para ello, se deben formular 3 preguntas:
+
+1. ¿Qué hice ayer?
+2. ¿Qué haré hoy?
+3. ¿Tengo algún impedimento?
+   
+La información que se comparte en una Daily stand-up debe estar enfocada exclusivamente a los objetivos del sprint.
+
+El Scrum Master es responsable de asegurar que no haya impedimentos para que el equipo de desarrollo cumpla su objetivo.
+
+Si se requieren más detalles sobre lo discutido, el equipo puede decidir que se lleve a cabo una reunión
+
+- *Beneficios del Daily Stand-Up*
+1. Mejora la comunicación del equipo de Scrum, gracias a las 3 preguntas que se responden (¿qué hice ayer?, ¿qué hice hoy?, ¿tengo algún impedimento?).
+2. Hace posible conocer y medir el progreso para cumplir el objetivo del Sprint.
+3. Ayuda a identificar rápidamente problemas o inconvenientes que pueden frenar el avance del equipo de desarrollo.
+
+
+#### Trabajo de desarrollo. 
+Va ocurriendo todos los días.
+
+
+### Revisión del Sprint. 
+Esta ceremonia de Revisión del Sprint se lleva a cabo el último día del Sprint. Allí se muestran al cliente los avances de la iteración, el software que se ha desarrollado y su funcionamiento. No necesariamente tiene que ser una sesión, pueden ser varias reuniones.
+
+- *Características de la Revisión del Sprint*
+1. La transparencia es importante. Esta reunión está enfocada en la comunicación con el cliente, es informal y abierta al diálogo, no es una sesión de seguimiento.
+2. Es facilitada por el Scrum Master y no debe durar más de cuatro horas para Sprints de un mes. Para sprints más cortos, se podría llevar a cabo en menos tiempo.
+3. Al final de la revisión se tendrá una lista de producto actualizada.
+4. La clave es mostrar el producto desarrollado al cliente, no hacer énfasis en presentaciones.
+   
+Después del Sprint Review se lleva a cabo una sesión de Retrospectiva, donde el equipo de Scrum analiza las oportunidades de mejora.
+
+#### Retrospectiva del Sprint. 
+
+La Retrospectiva es una reunión interna en la que solo participa el equipo de Scrum. Es facilitada por el Scrum Master y el cliente no está presente.
+
+Esta ceremonia se lleva a cabo en un ambiente más relajado y el equipo puede expresar libremente lo que piensa y dar feedback acerca de situaciones particulares.
+
+- *Características de la Retrospectiva del Sprint*
+1. Es una reunión positiva y productiva.\
+2. No es una sesión para buscar culpas.
+3. No debe durar más de tres horas para un sprint de un mes. Para Sprints de 2 semanas, una Retrospectiva puede durar entre 15 min. a 30 min.
+   1. Elementos que se discuten en la retrospectiva
+      1. Herramientas. Evaluar si se tiene todo lo necesario para cumplir el objetivo.
+      2. Relaciones. Identificar si la comunicación es fluidas o hay problemas.
+      3. Personas. Analizar cómo es la interacción entre los integrantes del equipo.
+      4. Procesos. Determinar si los procesos se ajustan al desarrollo óptimo que se espera dentro del equipo.
+   2. Se sugiere que se respondan las siguientes preguntas:
+      1. ¿Qué hicimos bien?
+      2. ¿Qué no hicimos tan bien?
+      3. ¿Qué podemos mejorar?
+      4. Con base en las respuestas a estas preguntas se identifican los elementos más importantes, se buscan soluciones y se crea un plan de acción para aplicar las mejoras.
+
 
 
 
